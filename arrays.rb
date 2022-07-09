@@ -16,4 +16,7 @@ apples.push (9)
 miles_run.shift
 
 # This method will add the element 5 to the beginning of the array in index position 0.
-run_this_day.unshift (5)
+run_this_day.unshift (true)
+
+# This method will delete the element at the defined position, or Paul in this instance.
+beatles.delete_at(1)
